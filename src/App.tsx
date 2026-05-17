@@ -59,19 +59,19 @@ const team = [
     name: 'Yanni Zhou',
     role: 'CEO',
     bio: 'MPhil (Oxford). Global art market resources & cross-border trading expert. Master of industry insights and international gallery networks.',
-    img: '/src/assets/images/yanni_zhou_pencil_v3_1778997181281.png'
+    img: 'src/assets/images/yanni_zhou_pencil_v3_1778997181281.png'
   },
   {
     name: 'Tiffany Truong',
     role: 'Valuation Strategy',
     bio: 'DPhil (Oxford), NYU Neuroscience. Expert in quantitative economic modeling, scientific pricing systems, and behavior economics.',
-    img: '/src/assets/images/tiffany_truong_pencil_v3_1778997195626.png'
+    img: 'src/assets/images/tiffany_truong_pencil_v3_1778997195626.png'
   },
   {
     name: 'Adithi Rajesh',
     role: 'CTO',
     bio: 'MSc Chemistry (Imperial). Technical framework architect specializing in art transaction data collection and valuation algorithm iteration.',
-    img: '/src/assets/images/adithi_rajesh_pencil_v3_1778997214109.png'
+    img: 'src/assets/images/adithi_rajesh_pencil_v3_1778997214109.png'
   }
 ];
 
