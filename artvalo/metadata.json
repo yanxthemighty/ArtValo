@@ -1,0 +1,8 @@
+{
+  "name": "ArtValo",
+  "description": "A high-end, single-screen Bento Grid landing page for ArtValo, a paper art valuation platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

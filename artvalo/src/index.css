@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  --color-brand-ivory: #F8F6F3;
+  --color-brand-terracotta: #C65D3D;
+  --color-brand-sage: #7A9D8F;
+  --color-brand-charcoal: #2D2D2D;
+  --color-brand-gray: #6B6B6B;
+  --color-brand-beige: #F0EBE4;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-ivory text-brand-charcoal font-sans antialiased;
+  }
+
+  /* Vintage Paper Texture Overlay */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0.04;
+    mix-blend-mode: multiply;
+    background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png");
+    z-index: 100;
+  }
+}
+
+@layer utilities {
+  .bento-hover {
+    @apply transition-all duration-300 hover:brightness-[1.03] hover:border-brand-terracotta border-transparent border;
+  }
+  
+  .metric-underline {
+    position: relative;
+  }
+  
+  .metric-underline::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color-brand-terracotta);
+    transition: width 0.3s ease;
+  }
+  
+  .metric-hover:hover .metric-underline::after {
+    width: 100%;
+  }
+}
