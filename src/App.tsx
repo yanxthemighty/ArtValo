@@ -54,7 +54,26 @@ const appDevCostData = [
   { name: 'UI/UX', value: 25, label: '$25k' },
 ];
 
-const team = [];
+const team = [
+  {
+    name: 'Yanni Zhou',
+    role: 'CEO',
+    bio: 'MPhil (Oxford). Global art market resources & cross-border trading expert. Master of industry insights and international gallery networks.',
+    img: '/yanni_zhou_pencil_v3_1778997181281.png'
+  },
+  {
+    name: 'Tiffany Truong',
+    role: 'Valuation Strategy',
+    bio: 'DPhil (Oxford), NYU Neuroscience. Expert in quantitative economic modeling, scientific pricing systems, and behavior economics.',
+    img: '/tiffany_truong_pencil_v3_1778997195626.png'
+  },
+  {
+    name: 'Adithi Rajesh',
+    role: 'CTO',
+    bio: 'MSc Chemistry (Imperial). Technical framework architect specializing in art transaction data collection and valuation algorithm iteration.',
+    img: '/adithi_rajesh_pencil_v3_1778997214109.png'
+  }
+];
 
 // --- Components ---
 
